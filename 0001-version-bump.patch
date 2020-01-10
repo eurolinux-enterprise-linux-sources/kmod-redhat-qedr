@@ -1,0 +1,12 @@
+Index: src/drivers/infiniband/hw/qedr/main.c
+===================================================================
+--- src.orig/drivers/infiniband/hw/qedr/main.c	2018-11-07 16:03:04.861603171 +0100
++++ src/drivers/infiniband/hw/qedr/main.c	2018-11-07 16:04:10.533945550 +0100
+@@ -51,6 +51,7 @@
+ MODULE_DESCRIPTION("QLogic 40G/100G ROCE Driver");
+ MODULE_AUTHOR("QLogic Corporation");
+ MODULE_LICENSE("Dual BSD/GPL");
++MODULE_VERSION("3.10.0-957_dup7.6");
+ 
+ #define QEDR_WQ_MULTIPLIER_DFT	(3)
+ 
